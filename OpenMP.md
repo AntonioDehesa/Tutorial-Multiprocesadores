@@ -12,3 +12,42 @@ Para poder utilizar OpenMP, simplemente tenemos que importar la librería como h
 #include <stdio.h>
 #include <omp.h>
 ```
+Posteriormente, para declarar una sección a paralelizar, se realiza con la siguiente instrucción: 
+```c
+#pragma omp parallel for
+```
+Esto hará que el siguiente for se realice paralelamente. 
+Posterior a esta instrucción, podemos declarar el ciclo for como en cualquier otro código. 
+```c
+for(int i=0;i<10;i++)
+  {
+    printf("%i\n",i);
+  }
+```
+Entonces, este es el resultado final de nuestro código. 
+```c
+#include <stdio.h>
+#include <omp.h>
+int main()
+{
+  #pragma omp parallel for
+  for(int i=0;i<10;i++)
+  {
+    printf("%i\n",i);
+  }
+  return 0;
+}#include <stdio.h>
+#include <omp.h>
+int main()
+{
+  #pragma omp parallel for
+  for(int i=0;i<10;i++)
+  {
+    printf("%i\n",i);
+  }
+  return 0;
+}
+```
+Como resultado, podemos ver los resultados:
+Sin paralelización 
+Con paralelización 
