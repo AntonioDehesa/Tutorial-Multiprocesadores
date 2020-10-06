@@ -49,5 +49,5 @@ int main()
 }
 ```
 Como resultado, podemos ver los resultados:
-Sin paralelización 
-Con paralelización 
+* [Sin paralelización]()
+* [Con paralelización]()
