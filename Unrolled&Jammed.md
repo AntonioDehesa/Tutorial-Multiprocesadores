@@ -1,4 +1,4 @@
-# Uso e instalación de OpenMP en Windows 10
+# Unrolled & Jammed con OpenMP
 
 ### Originalmente, Windows 10 no cuenta con un compilador de C. Por lo que nuestro tutorial también incluirá como descargar e instalar un compilador para C en Windows 10, con el cual también podremos instalar OpenMP, y solucionar los problemas que pueden surgir.
 A continuación, tenemos los pasos a seguir: 
