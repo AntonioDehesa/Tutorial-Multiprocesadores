@@ -41,3 +41,28 @@ Una desventaja de este método es que el tiempo de ejecución de cada iteración
 
 Ahora que ya sabemos cómo utilizar *Unrolled* y *Unrolled & Jammed*, podemos comenzar a ver ejemplos un poco más grandes.
 El ejemplo que veremos será una multiplicación de matrices utilizando *Unrolled* y *Unrolled & Jammed*. 
+
+Primero, creamos las matrices y las variables que se necesitaran 
+```c
+  float matA[SIZE][SIZE];
+  float matB[SIZE][SIZE];
+  float c[SIZE][SIZE];
+  double t, t1, t2;
+  float num = 1.0;
+  int j;
+  int i;
+  FILE *fptr;
+  fptr=fopen("Multiplicacion.txt","w");
+```
+Posteriormente, y utilizando la técnica de Jamming, podemos iniciar las matrices. 
+```c
+  for (int i = 0; i < SIZE; i++)
+  {
+    for (int j = 0; j < SIZE; j++)
+    {
+      matA[i][j] = j;
+      matB[i][j] = j;
+    }
+  }
+```
+
