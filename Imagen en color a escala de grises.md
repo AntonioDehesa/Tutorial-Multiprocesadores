@@ -156,6 +156,7 @@ t2 = omp_get_wtime();
 Desafortunadamente, en este caso, creo que no ha valido la pena paralelizarlo, pues si lo comparamos con el original, es mucho más lento
 * [Original](https://github.com/AntonioDehesa/Tutorial-Multiprocesadores/blob/main/Images/OriginalColorAGris.JPG)
 * [Paralelizado](https://github.com/AntonioDehesa/Tutorial-Multiprocesadores/blob/main/Images/ParaleloColorAGris.JPG)
+
 Ahora, hay que hacer lo mismo, pero utilizando malloc. 
 
 Primero, declaramos las variables, archivos y apuntadores que utilizaremos. 
