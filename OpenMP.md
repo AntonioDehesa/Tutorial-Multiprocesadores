@@ -6,6 +6,7 @@ A continuación, tenemos los pasos a seguir:
 2. Usando el instalador, instalar los paquetes necesarios. 
 Aunque lo más sencillo es simplemente dar clic en la esquina superior izquierda en el botón *Installation*, nos instalaría paquetes que pueden no ser muy útiles. 
 Para el propósito de este tutorial, los únicos paquetes que nos interesan son los relacionados a C, los paquetes que vienen por default, y, para solucionar problemas que pueden surgir de utilizar la librería OpenMP, los paquetes relacionados a mingw32-pthreads-w32.
+* [Pthreads. Paquete a descargar](https://github.com/AntonioDehesa/Tutorial-Multiprocesadores/blob/main/Images/MinGWInstalacion.JPG)
 3. Uso de OpenMP
 Para poder utilizar OpenMP, simplemente tenemos que importar la librería como haríamos con cualquier otra librería en C
 ```c
@@ -49,5 +50,5 @@ int main()
 }
 ```
 Como resultado, podemos ver los resultados:
-* [Sin paralelización]()
-* [Con paralelización]()
+* [Sin paralelización](https://github.com/AntonioDehesa/Tutorial-Multiprocesadores/blob/main/Images/SinParalel.JPG)
+* [Con paralelización](https://github.com/AntonioDehesa/Tutorial-Multiprocesadores/blob/main/Images/ConParalel.JPG)
